@@ -13,5 +13,5 @@ spring:
   profiles: local
 eureka:
   instance:
-    hostname: http://sam:michels@eureka-smichels.cfapps.io/eureka
+    hostname: https://company-smichels.cfapps.io
     nonSecurePort: 80
