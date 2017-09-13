@@ -2,3 +2,8 @@
 
 info:
   description: Training configuration repo
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://sam:michels@eureka-smichels.cfapps.io/eureka
