@@ -6,7 +6,7 @@ info:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://sam:michels@eureka-smichels.cfapps.io/eureka
+      defaultZone: ${vcap.application.application_uris[0]} # http://sam:michels@eureka-smichels.cfapps.io/eureka
 
 ---
 spring:
