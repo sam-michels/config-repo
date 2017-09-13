@@ -2,4 +2,4 @@
 spring:
   profiles: cloud
 
-message: Sam
+message: Sam's updated message
