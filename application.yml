@@ -10,7 +10,7 @@ eureka:
 
 ---
 spring:
-  profiles: local
+  profiles: cloud
 eureka:
   instance:
     hostname: https://company-smichels.cfapps.io
